@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
+  <!-- Pacific Orator's Staff Cursor -->
+  <g fill="#a3e4e0">
+    <!-- Staff body -->
+    <rect x="45" y="10" width="10" height="80" rx="5" />
+    
+    <!-- Top ornament -->
+    <circle cx="50" cy="10" r="8" />
+    <path d="M40,12 C40,5 60,5 60,12 S60,22 50,22 S40,19 40,12" />
+    
+    <!-- Decorative patterns -->
+    <circle cx="50" cy="30" r="5" opacity="0.8" />
+    <circle cx="50" cy="70" r="5" opacity="0.8" />
+    
+    <!-- Bottom ornament -->
+    <path d="M38,85 C38,90 62,90 62,85 S50,95 38,85" />
+  </g>
+  
+  <!-- Glow effect -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="blur" />
+    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+  </filter>
+</svg>
