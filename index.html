@@ -1,193 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synergy Blockchain Pacific - Samoa's Web3 Innovation Studio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/blog.css">
+  <meta charset="UTF-8" />
+  <title>Synergy Blockchain Pacific</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-family: 'Montserrat', sans-serif;
+      color: #e0f7fa;
+    }
+
+    .section-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 80px 20px;
+      border-radius: 12px;
+      margin-top: 60px;
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 2px solid transparent;
+    }
+
+    .hero {
+      text-align: center;
+      padding-top: 80px;
+      padding-bottom: 40px;
+    }
+
+    .logo-container img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px #00b4d8;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #00b4d8;
+      margin: 20px 0;
+    }
+
+    .tagline {
+      font-size: 1.5rem;
+      color: #90e0ef;
+    }
+
+    .highlight-section {
+      border-image: linear-gradient(to right, #00b4d8, #90e0ef, #ffd166) 1;
+      border-width: 3px;
+      border-style: solid;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ffd166;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .cta-buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .learn-more-btn {
+      display: inline-block;
+      padding: 12px 28px;
+      border-radius: 30px;
+      color: #fff;
+      background: linear-gradient(to right, #00b4d8, #90e0ef);
+      border: none;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .learn-more-btn:hover {
+      background: #ffd166;
+      color: #000;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 30px 0;
+      text-align: center;
+      color: #90e0ef;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="dao.html">Docs</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="apps.html">Apps</a></li>
-                <li><a href="whitepaper.html">Whitepaper</a></li>
-                <li><a href="roadmap.html">Roadmap</a></li>
 
-            </ul>
-        </nav>
-    </header>
+  <!-- 🌊 Hero / Logo Section -->
+  <section class="hero">
+    <div class="logo-container">
+      <img src="assets/images/site.images/Synergy Blockchain Pacific Logo (1).jpg" alt="Synergy Logo">
+    </div>
+    <h1>Synergy Blockchain Pacific</h1>
+    <p class="tagline">Samoa's Web3 Strategy, Infrastructure, and Innovation Consultancy</p>
+    <a href="#services" class="learn-more-btn">Our Services</a>
+  </section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Synergy <br>Blockchain Pacific</h1>
-            <h2>Synergy's Gateway to <br>Blockchain</h2>
-            <p class="subtitle">is Samoa's roadmap to the future</p>
-            
-            <div class="logo-container">
-                <div class="synergy-logo"></div>
-            </div>
-            
-            <p class="tagline">Digital sovereignty <br>starts here</p>
-        </div>
-        
-        <div class="social-container">
-            <div class="social-icons">
-                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </section>
+  <!-- 🎯 Services Section -->
+  <section class="section-container highlight-section" id="services">
+    <h2>What We Do</h2>
+    <p>
+      Synergy Blockchain Pacific is Samoa's first dedicated blockchain solutions firm, offering strategic advisory and technical deployment of Web3 infrastructure for governments, enterprises, and community cooperatives. From regulatory frameworks and e-commerce platforms to DAO design and digital identity systems — we’re laying the rails for Pacific innovation.
+    </p>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="section-container">
-            <div class="services-header">
-                <h2>Blockchain<br>consultation</h2>
-                <h2>Blockchain<br>Development</h2>
-                <h2>Blockchain<br>Training</h2>
-                <h2>Partner<br>with us</h2>
-            </div>
-            
-            <div class="services-content">
-                <h2>SAMOA'S LEADING BLOCKCHAIN SPECIALISTS</h2>
-                <p>Contact us for your<br>cutting edge<br>Blockchain solution</p>
-            </div>
-        </div>
-    </section>
+    <div class="cta-buttons">
+      <a href="mailto:synergyblockchainpacific@gmail.com" class="learn-more-btn">Contact Us</a>
+      <a href="https://calendly.com/synergy-consultation" class="learn-more-btn">Book a Consultation</a>
+    </div>
+  </section>
 
-    <!-- Mission Section -->
-    <section class="mission" id="mission">
-        <div class="section-container">
-            <div class="mission-content">
-                <p>At Synergy Blockchain Pacific, our mission is to lead Samoa and the Pacific into a new era of digital sovereignty. By leveraging the transformative power of blockchain, we build tools that empower local communities, modernize public infrastructure, and unlock secure, transparent, and inclusive economic systems.</p>
-                <p>We are driven by purpose, rooted in culture, and committed to delivering real-world solutions through decentralized innovation.</p>
-                <a href="#about" class="learn-more-btn">LEARN MORE</a>
-            </div>
-        </div>
-    </section>
+  <!-- 📘 Documentation -->
+  <section class="section-container highlight-section" id="docs">
+    <h2>Strategic Vision</h2>
+    <p>Explore how we’re aligning Samoa’s Web3 infrastructure with a Pacific-wide decentralized ecosystem through the Pasifika DAO initiative.</p>
+    <div class="cta-buttons">
+      <a href="roadmap.html" class="learn-more-btn">View Roadmap</a>
+      <a href="whitepaper.html" class="learn-more-btn">Read Whitepaper</a>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="section-container">
-            <div class="about-content">
-                <h2>Synergy Blockchain Pacific is Samoa's first Web3 innovation studio, dedicated to building blockchain-powered solutions for real-world impact across the Pacific.</h2>
-                <p>We blend cultural values with cutting-edge technology to create decentralized systems that support governance, commerce, identity, and community resilience.</p>
-                <p>Our vision is a connected Pacific — sovereign, secure, and self-directed through digital transformation.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="team" id="team">
-        <div class="section-container">
-            <h2>TEAM</h2>
-            <h3>Pioneering Blockchain Innovation in the Pacific</h3>
-            <p>Transforming Samoa into a Technological Powerhouse</p>
-            
-            <div class="team-members">
-                <div class="team-member">
-                    <div class="member-photo photo-1"></div>
-                    <div class="member-info">
-                        <p>Certified Blockchain developer entrepreneur with over a decade of advocacy, research and experience driving the technical evolution for blockchain in Samoa and beyond.</p>
-                        <div class="member-social">
-                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-member">
-                    <div class="member-photo photo-2"></div>
-                    <div class="member-info">
-                        <p>AI Enabler, Cybersecurity and Threat Management Specialist</p>
-                        <div class="member-social">
-                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Teaser -->
-    <section class="projects-teaser">
-        <div class="section-container">
-            <h2>The next wave of digital Transformation</h2>
-            <div class="quote">
-                <p>"Synergy – the bonus that is achieved when things work together harmoniously"</p>
-                <p class="author">"Mark Twain"</p>
-            </div>
-            
-            <div class="project-tags">
-                <span>SDCG</span>
-                <span>BLOCKCHAIN E-COMMERCE</span>
-                <span>PASIFIKA DAO</span>
-                <span>BLOCKCHAIN ADOPTION</span>
-                <span>REGULATORY FRAMEWORK</span>
-                <span>BLOCKCHAIN RESEARCH AND EDUCATION</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Document Section -->
-    <section class="documents">
-        <div class="section-container">
-            <h2>KEY DOCUMENTS</h2>
-            <div class="document-list">
-                <div class="document">
-                    <h3>1. Pasifika DAO Constitution</h3>
-                    <p>Overview: Foundational governance framework for the regional DAO and cultural principles.</p>
-                </div>
-                <div class="document">
-                    <h3>2. Synergy Blockchain Pacific Whitepaper</h3>
-                    <p>Technical, economic, and strategic blueprint of Samoa's first Web3 infrastructure company.</p>
-                </div>
-                <div class="document">
-                    <h3>3. Regulatory Alignment & Compliance Note</h3>
-                    <p>Legal and governance considerations for token issuance, financial tools, and marketplace use.</p>
-                </div>
-                <div class="document">
-                    <h3>4. Community Participation Guide</h3>
-                    <p>How to join the DAO, contribute, stake tokens, and launch your own local initiative.</p>
-                </div>
-                <div class="document">
-                    <h3>5. Synergy Apps</h3>
-                    <p>Links to the Synergy Blockchain Pacific applications.</p>
-                </div>
-                <div class="document">
-                    <h3>6. Investor pitch deck</h3>
-                    <p>The future of the Pacific.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Synergy Blockchain Pacific. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
+  <footer>
+    &copy; 2024 Synergy Blockchain Pacific · Web3 Strategy for Samoa & Pasifika
+  </footer>
 </body>
 </html>
+
