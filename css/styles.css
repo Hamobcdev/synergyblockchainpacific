@@ -770,3 +770,102 @@ footer {
 .main-nav a.active::after {
     width: 100%;
 }
+
+body {
+    background-color: #000;
+    color: #e0f7fa;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .section-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #00b4d8, #90e0ef, #ffd166) 1;
+  }
+  
+  h2 {
+    color: #ffd166;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .learn-more-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    color: #fff;
+    background: linear-gradient(to right, #00b4d8, #90e0ef);
+    border: none;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .learn-more-btn:hover {
+    background: #ffd166;
+    color: #000;
+  }
+
+  .wave-footer {
+    position: relative;
+    margin-top: 60px;
+    background: linear-gradient(to right, #00b4d8, #90e0ef);
+    padding: 60px 20px 20px 20px;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .wave-footer h3 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  
+  .wave-footer p {
+    font-size: 1.1rem;
+  }
+  
+  .wave-footer a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 200%;
+    height: 120px;
+    background: url('https://svgshare.com/i/uKc.svg') repeat-x;
+    background-size: contain;
+    animation: waveMove 10s linear infinite;
+    opacity: 0.5;
+  }
+  
+  @keyframes waveMove {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  
+  
